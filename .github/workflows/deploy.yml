@@ -27,7 +27,7 @@ jobs:
        host: ${{ secrets.HOST }}
        username: ${{ secrets.USER }}
        key: ${{ secrets.SSH_PRIVATE_KEY }}
-       port: 22<XXX>
+       port: 22038
        source: "dist/*"
        target: "/var/www/authentification/pb_public"
        strip_components: 1
